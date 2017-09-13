@@ -1,0 +1,12 @@
+profesor(fernando).
+profesor(elisa).
+profesor(carlos).
+materia(logica).
+materia(matematicas).
+materia(programacion).
+dia(lunes).
+dia(miercoles).
+dia(viernes).
+imparte(elisa, programacion).
+mateXdia(programacion, Dia) :- dias(Dia ´)
+

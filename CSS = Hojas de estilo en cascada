@@ -1,0 +1,14 @@
+CSS = Hojas de estilo en cascada
+¿para que sierve ?
+	estilos 
+	maquetar
+	diseño y color
+
+Todas las etiquetas se llaman 
+Nota: todo en orden alfabetico
+pseudoelementos @ 
+selectores "solo etiquetas " - cambian atributos 
+	etiquetas ejem, p,html,div
+	identificador ejem. #id <-- 
+	clases ejem. .class 
+media quereis  - diseño adaptativo <--- misma pagina todos los dispositivos 
