@@ -5,14 +5,60 @@ body
 	max-width: 1024px; /*empresa-cliente*/
 	min-width: 1024px;
 }
+header nav
+{
+	background-color: orange;
+
+}
 header nav ul li
 {
 	display: inline-block;
 	font-size: 1em;
+	padding-left: -20px;
 	margin-right: 15px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+
+
+}
+
+#primeraseccion  article
+{
+	
+
+}
+
+#banner
+{
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+#caption
+{
+	background-color: orange;
+}
+#publiimg
+{
+	padding-top: 20px;
+}
+.publi
+{
+	float: right;
+	margin-top: -315px;
+	margin-right: 50px;
+	
+}
+#seccart1
+{
+	margin-left: 20px;
 }
 .icono
 {
 	float: right;
-	margin-top: 50px;
+	margin-top: 40px;
+	padding-right: 7px;
 }
+
