@@ -1,0 +1,24 @@
+eligeSaludo x= if x then "adios"
+                else "hola"
+
+ç
+
+
+
+
+threeEqual :: Int -> Int -> Int ->Bool
+threeEqual m n p = (m==n) && (n==p)
+
+-- Dice si un num es menor a 50 
+menor50 :: Int -> Bool
+menor50 x = if x <50 then True else False
+
+
+doble x= x+x
+
+
+cuadruple :: Int -> Int
+cuadruple x = doble ( doble x)
+
+
+

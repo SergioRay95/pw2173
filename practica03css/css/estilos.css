@@ -7,8 +7,15 @@ body
 }
 header nav
 {
-	background-color: orange;
-
+	/*Opera*/
+	background: -o-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Safari*/
+	background: -webkit-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Firefox*/
+	background: -moz-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Para todos*/
+	background: linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	border-radius: 5px;
 }
 header nav ul li
 {
@@ -24,9 +31,9 @@ header nav ul li
 
 }
 
-#primeraseccion  article
+#segundaaseccion  
 {
-	
+	display: inline-block;
 
 }
 
@@ -38,7 +45,17 @@ header nav ul li
 }
 #caption
 {
-	background-color: orange;
+	border-radius: 5px;
+	color: white;
+	/*Opera*/
+	background: -o-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Safari*/
+	background: -webkit-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Firefox*/
+	background: -moz-linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+	/*Para todos*/
+	background: linear-gradient(#FD9155,#FDA87D,#F6661D,#DD4812);
+
 }
 #publiimg
 {
