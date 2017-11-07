@@ -38,16 +38,19 @@ header img
 {
 	background: #545454;
 	width: 19%;
+	margin-left: -4px;
 }
 #seccion1art4
 {
 	background: #d42e40;
-	width: 19%;
+	width: 18%;
+	margin-left: -3px;
 }
 #seccion1art5
 {
 	background:#e4e4e4;
 	width: 19%;
+	margin-left: -4px;
 }
 #seccion2
 {
@@ -69,18 +72,22 @@ header img
 }
 #seccion2art2
 {
-	width: 30%;
+	
+	width: 32%;
 }
 #seccion2art2 img
 {
+	
 	width: 300px;
 }
 #seccion2art3
 {
+	
 	width: 30%;
 }
 #seccion2art3 img
 {
+
 	width: 300px;
 }
 
@@ -91,7 +98,8 @@ header img
 #menu
 
 {
-	max-width: 930px;
+	max-width: 765px;
+	margin-left: 20px;
 }
 #span1
 {
@@ -109,5 +117,11 @@ header img
 {
 	font-size: 1.5em;
 }
-
-
+.read
+{
+	margin-left: 200px;
+	outline-color: #2b2b2b;
+	background: #2b2b2b;
+	color: white;
+	border-color: black;
+}
