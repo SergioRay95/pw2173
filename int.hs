@@ -49,11 +49,11 @@ orderTriple (x,y,z)
 distancia :: (Int,Int)->(Int,Int)->Int
 distancia (x,y) (a,b) = (b-x)+(a-y)
 
---pMedio :: (Int,Int)->(Int,Int)->(Double,Double)
---pMedio (x,y) (a,b) = (c,d) 
--- where
---  c=((x+a)/2)
---  d=((y+b)/2)
+pMedio :: (Double,Double)->(Double,Double)->(Double,Double)
+pMedio (x,y) (a,b) = (c,d) 
+ where
+ c=((x+a)/2)
+ d=((y+b)/2)
 
 
 
@@ -82,6 +82,7 @@ distancia (x,y) (a,b) = (b-x)+(a-y)
 
 multiplos :: Int ->Int-> [Int]
 multiplos n m = [n,n+n..m]
+
  
 
 
@@ -100,14 +101,9 @@ menores x a = [n|n<-a,n<x]
 --nivelEsc:: Int->[Char]
 
 
-
+--paresimpares :: Int->([Int],[Int]) lista de pares y una de impares 
+--binario:: Int->[Int] devolver el numero en binario
 
 
                                                                                                     
-
-
-
-
-
-
-
+--examen 
