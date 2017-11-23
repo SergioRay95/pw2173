@@ -1,2 +1,0 @@
-Primer linea de texto.
-Segunda linea de proyecto.
